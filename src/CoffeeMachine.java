@@ -100,7 +100,15 @@ public class CoffeeMachine {
                     continue;
             }
         }
+    }
 
+    public static void coffeeDescribe(int water, int milk, int beans, int cupsOfCoffee, int money) {
+        System.out.println("The coffee machine has: ");
+        System.out.println(water + " of water");
+        System.out.println(milk + " of milk");
+        System.out.println(beans + " of coffee beans");
+        System.out.println(cupsOfCoffee + " of disposable cups");
+        System.out.println(money + " of money");
     }
 
 //    public static void buyCoffee(int water, int milk, int beans, int cupsOfCoffee, int money) {
@@ -163,14 +171,5 @@ public class CoffeeMachine {
 //
 //        coffeeDescribe(moreWater, moreMilk, moreCoffee, cups, money);
 //    }
-
-    public static void coffeeDescribe(int water, int milk, int beans, int cupsOfCoffee, int money) {
-        System.out.println("The coffee machine has: ");
-        System.out.println(water + " of water");
-        System.out.println(milk + " of milk");
-        System.out.println(beans + " of coffee beans");
-        System.out.println(cupsOfCoffee + " of disposable cups");
-        System.out.println(money + " of money");
-    }
 
 }
